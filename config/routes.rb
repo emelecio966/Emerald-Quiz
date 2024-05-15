@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get("/stones", { :controller => "zebra", :action => "giraffe"}) 
-  
-  get("/rules", { :controller => "zebra", :action => "rules"})
+  get("/stones", { :controller => "quiz", :action => "play_stones"}) 
+    
+  get("/rules", { :controller => "quiz", :action => "rules"})
   
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

@@ -1,9 +1,10 @@
 class ZebraController < ApplicationController 
-  def giraffe
+  def play_stones
     render({ :template => "game_templates/play_stones" }) 
   end
-end 
 
-def rules
+
+  def rules
    render({ :template => "game_templates/rules" })
-end 
+  end 
+end
